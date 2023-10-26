@@ -89,15 +89,19 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-.nav-link:active::after {
-  position: absolute;
-  bottom: 0px;
-  display: block;
+.active {
+  color: #404bbf;
+}
+.active::after {
   content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
   width: 48px;
   height: 4px;
   background-color: #404BBF;
-
+  border-radius: 2px;
 }
 .address-content {
   display: flex;
@@ -132,7 +136,7 @@ img {
   flex-direction: column;
   margin: auto;
   padding: 188px 0;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
