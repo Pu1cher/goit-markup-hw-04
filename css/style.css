@@ -353,11 +353,11 @@ background-color: #404bbf;
     position: relative;
     overflow: hidden;
 }
-.portfolio-list-details {
+.vagamama {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+  display: block;
   width: 360px;
   height: 300px;
   font-size: 16px;
